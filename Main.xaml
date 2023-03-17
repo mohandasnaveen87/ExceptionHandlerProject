@@ -113,7 +113,7 @@
           </Catch>
         </TryCatch.Catches>
       </TryCatch>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hi Naveen .Build and Release Latest&quot;]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hi Naveen .Build and Release Latest &quot;]" />
     </Sequence>
   </Sequence>
 </Activity>
