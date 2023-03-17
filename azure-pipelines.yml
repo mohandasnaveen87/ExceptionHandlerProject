@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: UiPathPack@3
   inputs:
-    versionType: 'CurrentVersion'
+    versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)\project.json'
     outputType: 'Process'
     orchestratorConnection: 'uipath_conn'
