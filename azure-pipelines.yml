@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  Default
 
 steps:
 - script: echo Hello, world!
@@ -24,3 +24,8 @@ steps:
     outputType: 'Process'
     orchestratorConnection: 'uipath_conn'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
